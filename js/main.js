@@ -9,9 +9,9 @@ let start = document.getElementById('start'),
   yearsavings = document.getElementsByClassName('yearsavings-value'),
 
   expensesInput = document.getElementsByClassName('expenses-item'),
-  expensesBtn = document.getElementsByTagName('button' [0]),
-  optionalExpensesBtn = document.getElementsByTagName('button' [1]),
-  countBudgetBtn = document.getElementsByTagName('button' [2]),
+  expensesBtn = document.getElementsByTagName('button')[0],
+  optionalExpensesBtn = document.getElementsByTagName('button')[1],
+  countBudgetBtn = document.getElementsByTagName('button')[2],
   
   optionalexpensesItem = document.querySelectorAll('optionalexpenses-item'),
   chooseIncome = document.querySelector('#income'),
@@ -21,8 +21,7 @@ let start = document.getElementById('start'),
 
   yearValue = document.querySelector('.year-value'),
   monthValue = document.querySelector('.month-value'),
-  dayValue = document.querySelector('.day-value')
-  ;
+  dayValue = document.querySelector('.day-value');
 
-  console.log(optionalExpensesBtn);
+console.log(countBudgetBtn);
   
